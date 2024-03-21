@@ -1,0 +1,262 @@
+body
+{
+    background-image:url("contact.jpg");
+    background-size:cover;
+}
+.varela-round-regular {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header
+{
+    display:flex;
+    flex-direction: row;
+    font-family: "Varela Round", sans-serif;
+    align-items: center;
+    padding:20px;
+    font-weight:bold;
+    color:white;
+    margin-bottom:none;
+    padding-bottom:none;
+}
+.links ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 200px;;
+}
+.links ul li {
+    padding: 0 20px;
+}
+.charan:hover
+{
+    font-size:20px;
+    color:black;
+}
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-900px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+.skillsp {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-family: "Varela Round", sans-serif;
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    font-weight: solid;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 50px;
+}
+main
+{
+    font-family: "Varela Round", sans-serif;
+    margin-top:0;
+    padding:0;
+    margin-bottom:0;
+    height:650px;
+    width:1500px;
+}
+main:hover
+{
+    background-image:url("contact1.jpg");
+    background-size:cover;
+    margin-left:none;
+}
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-900px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+.contact {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-family: "Varela Round", sans-serif;
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    font-weight: solid;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 50px;
+}
+.skills
+{
+    text-decoration: none;
+    color:white;
+}
+.skills:hover
+{
+    color:black;
+}
+.home
+{
+    text-decoration: none;
+    color:white;
+}
+.home:hover
+{
+    color:black;
+}
+.number
+{
+    display:inline-block;
+    width:450px;
+    border-style:solid;
+    border-color:black;
+    margin-top:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left:19px;
+    border-radius:60px;
+}
+.email
+{
+    display:inline-block;
+    width:475px;
+    border-style:solid;
+    border-color:black;
+    padding-top: 14px;
+    padding-bottom : 10px;
+    margin-left:10px;
+    border-radius:60px;
+}
+.address
+{
+    display:inline-block;
+    width:500px;
+}
+.mobile
+{
+    height:50px;
+    width:50px;
+    padding-left:210px;
+    padding-top:10px;
+}
+.mobilenumber
+{
+    font-family:"Varela Round", sans-serif;
+    font-size:25px;
+    font-weight:bold;
+    padding-left:30px;
+    color:black;
+}
+.emailimg
+{
+    height:50px;
+    width:50px;
+    padding-left:210px;
+    padding-top:10px;
+    padding-top:6px;
+    padding-bottom:2px;
+}
+.emaildata
+{
+    font-family:"Varela Round", sans-serif;
+    font-size:25px;
+    font-weight:bold;
+    padding-left:4px;
+    padding-right:4px;
+    color:black;
+}
+.address
+{
+    border-style:solid;
+    border-color:black;
+    margin-top:20px;
+    margin-left:10px;
+    border-radius:60px;
+}
+.addressimg
+{
+    height:50px;
+    width:50px;
+    padding-left:210px;
+    padding-top:22px;
+    padding-bottom:2px;
+}
+.addressdata
+{
+    font-family:"Varela Round", sans-serif;
+    font-size:25px;
+    font-weight:bold;
+    padding-left:30px;
+    padding-right:4px;
+    padding-bottom:10px;
+    color:black;
+}
+.contact:hover
+{
+    font-size:70px;
+    color:white;
+}
+.aboutme
+{
+    color:white;
+    text-decoration: none;
+}
+.aboutme:hover
+{
+    color:black;
+}
+.experience
+{
+    color:white;
+    text-decoration: none;
+}
+.experience:hover
+{
+    color:black;
+}
+.mobilenumber:hover{
+    color:white;
+}
+.emaildata:hover{
+    color:white;
+}
+.addressdata:hover
+{
+    color:white; 
+}
+.number:hover
+{
+    color:white; 
+}
+.projects
+{
+    color:white;
+    text-decoration: none;
+}
+.projects:hover
+{
+    color:black;
+}
+.others
+{
+    color:white;
+    text-decoration: none;   
+}
+.others:hover
+{
+    color:black;
+}

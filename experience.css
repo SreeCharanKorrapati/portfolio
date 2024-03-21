@@ -1,0 +1,175 @@
+body
+{
+    background-image:url("experience.png");
+    background-size:cover;
+}
+.varela-round-regular {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header
+{
+    display:flex;
+    flex-direction: row;
+    font-family: "Varela Round", sans-serif;
+    align-items: center;
+    padding:20px;
+    font-weight:bold;
+    color:white;
+    margin-bottom:none;
+    padding-bottom:none;
+}
+.links ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 200px;;
+}
+.links ul li {
+    padding: 0 20px;
+}
+.charan:hover
+{
+    font-size:20px;
+    color:black;
+}
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-900px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+.experience1{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-family: "Varela Round", sans-serif;
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    font-weight: solid;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 50px;
+}
+main
+{
+    font-family: "Varela Round", sans-serif;
+    margin-top:15px;
+    padding:0;
+    margin-bottom:0;
+    height:650px;
+    width:1500px;
+}
+main:hover
+{
+    background-image:url("experiencebck.jpg");
+    background-size:cover;
+    margin-left:none;
+}
+.experience1:hover
+{
+    color:white;
+    font-size:100px;
+}
+.contact
+{
+    color:white;
+    text-decoration: none;
+}
+.contact:hover
+{
+    color:black;
+}
+.aboutme
+{
+    color:white;
+    text-decoration: none;
+}
+.aboutme:hover
+{
+    color:black;
+}
+.home
+{
+    color:white;
+    text-decoration: none;
+}
+.home:hover
+{
+    color:black;
+}
+.skills
+{
+    color:white;
+    text-decoration: none;
+}
+.skills:hover
+{
+    color:black;
+}
+.ccimg,
+.apssdcimg,
+.researchimg,
+.uropimg {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.ccdata,
+.apssdcdata,
+.researchdata,
+.uropdata {
+    font-family: "Varela Round", sans-serif;
+    display: inline-flex; 
+    align-items: center; 
+    font-size: 20px;
+    padding-left: 8px;
+    height: 60px; 
+}
+
+.ccdata,
+.apssdcdata,
+.researchdata,
+.uropdata {
+    margin-left: 10px; 
+}
+.codeclause,.apssdc,.research,.urop
+{
+    margin-bottom:15px;
+    border-style:solid;
+}
+.codeclause:hover,
+.apssdc:hover,
+.research:hover,
+.urop:hover
+{
+    color:white;
+}
+.projects
+{
+    color:white;
+    text-decoration: none;
+}
+.projects:hover
+{
+    color:black;
+}
+.others
+{
+    color:white;
+    text-decoration: none;   
+}
+.others:hover
+{
+    color:black;
+}

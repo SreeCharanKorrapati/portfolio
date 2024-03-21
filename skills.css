@@ -1,0 +1,215 @@
+body
+{
+    background-image:url("skills.jpg");
+    background-size:cover;
+}
+.varela-round-regular {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header
+{
+    display:flex;
+    flex-direction: row;
+    font-family: "Varela Round", sans-serif;
+    align-items: center;
+    padding:20px;
+    font-weight:bold;
+    color:white;
+    margin-bottom:none;
+    padding-bottom:none;
+}
+.links ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 200px;;
+}
+.links ul li {
+    padding: 0 20px;
+}
+.charan:hover
+{
+    font-size:20px;
+    color:black;
+}
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-900px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+.skillsp {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-family: "Varela Round", sans-serif;
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    font-weight: solid;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 50px;
+}
+main
+{
+    font-family: "Varela Round", sans-serif;
+    margin-top:0;
+    padding:0;
+    margin-bottom:0;
+    height:650px;
+    width:1500px;
+}
+main:hover
+{
+    background-image:url("skillsback.png");
+    background-size:cover;
+    margin-left:none;
+}
+.skillsp:hover
+{
+    color:white;
+    font-size:100px;
+}
+.tech
+{
+    font-family: "Varela Round", sans-serif;
+    font-size:30px;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+.tech:hover
+{
+    color:white;
+    font-size:70px;
+}
+.home
+{
+    color:white;
+    text-decoration: none;
+}
+.home:hover
+{
+    color:black;
+}
+.c, .python, .html, .sql, .dsa {
+    font-size: 12px; 
+    display: inline-block;
+    width: 250px; 
+    padding: 10px; 
+    border-style: solid;
+    height: 70px; 
+    text-align: center; 
+    margin-left: 20px; 
+    margin-top: 10px; 
+    border-radius:50px;
+    border:none;
+}
+.c,.html,.dsa
+{
+    background-color:rgb(246, 169, 81);
+}
+.python,.sql
+{
+    background-color:lightblue;
+}
+.c:hover,.html:hover,.dsa:hover
+{
+    background-color:rgb(255, 132, 0);
+    color:white;
+    font-weight:bold;
+}
+.python:hover,.sql:hover
+{
+    background-color:blue;
+    color:white;
+    font-weight:bold;
+}
+.soft
+{
+    font-family: "Varela Round", sans-serif;
+    font-size:30px;
+    text-align: center;
+    margin-top:20px;
+}
+.soft:hover
+{
+    color:white;
+    font-size:70px;
+}
+.tem, .tim {
+    font-size: 12px; 
+    display: inline-block;
+    width: auto; 
+    padding: 20px; 
+    border-style: solid;
+    height: 60px; 
+    text-align: center; 
+    margin-left: 300px; 
+    margin-top: 5px; 
+    border-radius: 50px;
+    border: none;
+}
+.tem, .tim
+{
+    background-color:lightgreen;
+}
+.tem:hover, .tim:hover
+{
+    background-color:rgb(16, 234, 16);
+    color:white;
+}
+.contact
+{
+    color:white;
+    text-decoration: none;
+}
+.contact:hover
+{
+    color:black;
+}
+.aboutme
+{
+    color:white;
+    text-decoration: none;
+}
+.aboutme:hover
+{
+    color:black;
+}
+.experience
+{
+    color:white;
+    text-decoration: none;
+}
+.experience:hover
+{
+    color:black;
+}
+.projects
+{
+    color:white;
+    text-decoration: none;
+}
+.projects:hover
+{
+    color:black;
+}
+.others
+{
+    color:white;
+    text-decoration: none;   
+}
+.others:hover
+{
+    color:black;
+}
