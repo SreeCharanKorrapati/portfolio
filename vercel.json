@@ -1,0 +1,15 @@
+{
+    "routes": [
+      { "handle": "filesystem" },
+      { "src": "/", "dest": "/home.html" }, 
+      { "src": "/skills", "dest": "/skills.html" },
+      { "src": "/experience", "dest": "/experience.html" },
+      { "src": "/projects", "dest": "/projects.html" },
+      { "src": "/others", "dest": "/others.html" },
+      { "src": "/aboutme", "dest": "/aboutme.html" },
+      { "src": "/contact", "dest": "/contact.html" },
+      { "src": "/home", "dest": "/home.html" },
+      { "src": "/(.*)", "dest": "/$1" }
+    ]
+  }
+  
